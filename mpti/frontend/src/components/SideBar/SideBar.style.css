@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Rubik&display=swap');
+
+.dashboard_admin{
+    display: flex;
+    height: 100vh;
+    font-family: 'Poppins';
+    font-style: normal;
+    margin-top: 0;
+}
+.sidebar{
+    background: #232D52;
+    padding: 0px 28px;
+    width: 350px;
+    z-index: 999;
+}
+.sidebar_profile{
+    /* background-color: tomato; */
+    margin-top: 30px;
+}
+.sidebar_profile h6{
+    margin-top: 10px;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+}
+.sidebar_profile p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    color: #9599A6;
+    /* background: tomato; */
+}
+.sidebar_profile img{
+    border-radius: 50%;
+}
+.sidebar__menu p{
+    margin-top: 20px;
+}
+.sidebar__menu p a{
+    color: #ffff;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+.sidebar__menu p a:hover{
+    color: #93B1C4;
+}

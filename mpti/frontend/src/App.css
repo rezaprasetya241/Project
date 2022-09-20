@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Rubik&display=swap');
+*{
+    font-family: Poppins;
+}
+
+header{
+    z-index: 999;
+    width: 100%;
+    height: 75px;
+    position: absolute;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+
+}
+nav ul{
+    margin: auto 0px;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: rgba(10, 19, 41, 1);
+}
+nav li a:hover{
+    color: rgba(147, 177, 196, 1);
+}
+header .container div .navbar__links{
+    border: none;
+    border-radius: 30px;
+    padding: 10px 32px;
+    margin: 0px 8px;
+    color: #93B1C4;
+    font-weight: 500px;
+    text-decoration: none;
+    font-size: 12px;
+}
+header .container div .navbar__links:hover{
+    background: #93B1C4;
+    color: white;
+}
+#userLogin{
+    color: rgba(10, 19, 41, 1);
+    text-decoration: none;
+}
+#userLogin:hover{
+    /* color: rgba(147, 177, 196, 1); */
+    color: white;
+}
+.navbar__users{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+}
+.navbar__users p{
+    font-weight: 500px; 
+    color: rgba(10, 19, 41, 1);
+    font-size: 16px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+.navbar__users button{
+    border: none;
+    border-radius: 30px;
+    padding: 10px 32px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    color: #93B1C4;
+    font-weight: 500px;
+    text-decoration: none;
+    font-size: 12px;
+}
+.navbar__users button:hover{
+    background: #93B1C4;
+    color: white;
+}
+.btn-navbar{
+    display: none;
+    border: none;
+    color: black;
+    margin-top: 5px;
+    background: none;
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 880px) {
+    .logo img{
+        width: 100px;
+        height: 30px;
+        padding-top: 10px;
+    }
+    header .container div .navbar__links{
+        padding: 8px 16px;
+        margin: 0px 3px;
+        font-size: 12px;
+    }
+    .btn-navbar{
+        display: flex;
+        font-size: 20px;
+        z-index: 999;
+    }
+    nav li{
+        display: block;
+    }
+    nav li a{
+        font-size: 30px;
+    }
+    .nav__menu {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 100vw;
+        background: rgba(255, 247, 244, 0.8);
+
+        flex-direction: column;
+        transform: translateY(-100%);
+        transition: 0.5s ease-in;
+      }
+}
+/* Active Class */
+.nav__active {
+    transform: translateX(0%);
+  }
+button:hover{
+    cursor: pointer;
+}

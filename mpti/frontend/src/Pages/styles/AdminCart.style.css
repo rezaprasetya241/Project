@@ -1,0 +1,96 @@
+.adminCart{
+    margin: 0;
+    padding: 0;
+    z-index: 999;
+    background: white;
+}
+.dashboard__mainCart{
+        width: 100%;
+        background: white;
+        padding: 2% 5%;
+        display: flex;
+        z-index: 999;
+}
+.dashboard_adminCart{
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    margin-top: 0;
+}
+.dashboard_mainCart_Product{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin-right: 10px;
+}
+.root{
+    margin: 20px;
+}
+.form{
+    display: 'flex';
+    flex-wrap: 'wrap';
+    justify-content: 'center';
+}
+.textFieldAdmin{
+    margin-bottom: 10px;
+}
+.fileInput{
+    width: '97%';
+    margin: '10px 0';
+}
+.fileInput button{
+    margin-top: 20px;
+}
+.paper {
+    padding: 20px;
+    margin-left: 10px;
+}
+
+
+.cardAdmin{
+    width: 180px;
+    border: none;
+    transition: .3s ease-in-out;
+    background: transparent;
+    height: 300px;
+}
+.card_image_admin{
+    border-radius: 10px;
+    height: 200px !important;
+}
+.productButton button{
+    font-size: 12px;
+    width: 25px;
+    height: 25px;
+    background: red;
+}
+.edit{
+    top: 20%;
+    left: 35%;
+
+}
+.edit{
+    background: white;
+    width: 50px;
+    height: 50px;
+    color: black;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+    position: absolute;
+    top: 20% !important;
+    left: 35% !important;
+    display: none;
+    z-index: 999;
+}
+.cardAdmin:hover{
+    transform: scale(.9);
+}
+.cardAdmin:hover img{
+    filter: brightness(50%);
+}
+.cardAdmin:hover .edit{
+    display: block;
+}

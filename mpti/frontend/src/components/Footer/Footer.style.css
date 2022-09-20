@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Rubik&display=swap');
+footer{
+    background: #F3EDE9;
+    padding: 20px 0;
+}
+
+footer .container img{
+    width: 180px;
+    height: 35px;
+    /* margin: 40px auto; */
+    display: block;
+}
+.footer_details{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_maps{
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+}
+.footer_maps iframe{
+    height: 231px;
+    border-radius: 20px;
+    width: 654px;
+}
+/* .footer_desc{
+    width: 50%;
+    background-color: tomato;
+} */
+.footer_desc h6{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: normal;
+    font-family: Poppins;
+}
+.footer_desc p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+.footer_logo{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #34364A;
+}
+.footer__link{
+    line-height: 12px;
+}
+.footer__link a{
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+}
+.footer__link a:hover{
+    color: var(--txtHover);
+}
+
+.footer__media__facebook{
+    color: rgba(66, 103, 178, 1);
+    margin: 2px 4px;
+    cursor: pointer;
+}
+.footer__media__instagram{
+    color: rgba(225, 48, 108, 1);
+    margin: 2px 4px;
+    cursor: pointer;
+}
+.footer__media__youtube{
+    color: rgba(255, 0, 0, 1);
+    margin: 2px 4px;
+    cursor: pointer;
+}
+
+.footer__input{
+    padding: 12px 12px;
+    width: 60%;
+    border: none;
+    border-radius: 10px;
+    color: rgba(182, 182, 182, 1);
+}
+.footer__btnSubmit{
+    background: #34835E;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: none;
+}
+.footer_subs{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.footer_subs_subcribe{
+    width: 80%;
+}
+.footer_subs_media a{
+    font-size: 24px;
+}
+.text-center{
+    margin-top: 80px;
+}
+
+@media(max-width: 880px){
+    .footer_details{
+        display: flex;
+        flex-direction: column;
+    }
+    
+.footer_maps iframe{
+    height: 231px;
+    border-radius: 30px;
+    width: 100%;
+}
+}

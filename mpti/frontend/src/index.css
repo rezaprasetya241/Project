@@ -1,0 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --txtHover: rgba(147, 177, 196, 1);
+  --btnBackground: #93B1C4;
+}
